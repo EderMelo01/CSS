@@ -23,3 +23,21 @@ ul li{
     font-size: 12;
     font-family: 'Courier New', Courier, monospace;
 }
+.Eder{
+    text-align: center;
+}
+.Eder img{
+    border-radius: 50%;
+}
+div ul{
+    font-size: 12;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.sobre{
+    padding-top: 5%;
+}
+
+footer a{
+    word-spacing: 20%;
+}
