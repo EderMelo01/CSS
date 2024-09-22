@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: rgb(53, 204, 227);
 }
 h2,p{
@@ -7,7 +7,7 @@ h2,p{
     font-size: 12;
     font-family: 'Courier New', Courier, monospace;
 }
-header{
+.header{
     background-color: #186dff;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +37,108 @@ div ul{
 .sobre{
     padding-top: 5%;
 }
+.cabecalho{
+    height: 50px;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0.50rem;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    border-bottom: color(srgb rgb(234, 86, 86) rgb(234, 86, 86) rgb(234, 86, 86));
+    border-bottom: solid;
+    display: flex
+}
+.perfil{
+    width: 35px;
+    height: 35px;
+    margin-left: 40%;
+    border-radius: 50%;
+    background-image: url(icons8-usuário-30.png);
+    
+}
 
-footer a{
-    word-spacing: 20%;
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 40%;
+    color: rgb(234, 86, 86);
+}
+.menu{
+    width: 35px;
+    height: 35px;
+    margin-left: 1%;
+    background-color: white;
+    background-image: url(icons8-cardápio-30.png);
+    border: solid transparent;
+}
+.imagemOvos{
+    max-width: 500px;
+    max-height: 500px;
+    
+}
+.caixa{
+    align-items: center;
+    margin-top: 5.7%;
+    text-align: center;
+}
+.obs{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(87, 87, 87);
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.ingredientesPreparo{
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: rgb(216, 216, 216);
+}
+
+
+.h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+}
+
+.ingredientes{
+    display: flex;
+}
+
+.imagemIngredientes1{
+    width: 32px;
+    height: 32px;
+    border: transparent;
+    border-radius: 50%;
+    padding-left: 31%;
+    
+}
+
+.imagemIngredientes2{
+    width: 32px;
+    height: 32px;
+    border: transparent;
+    border-radius: 50%;
+    padding-left: 8%;
+    
+}
+
+.ingredientesCitados{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.modoPreparo{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 32.3%;
+    padding-right: 32.4%
+}
+
+.listaOrdenada li{
+    padding-bottom: 20px;
+    
 }
